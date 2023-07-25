@@ -1,0 +1,34 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  display: flex;
+}
+
+
+.aleg {
+  background-color: rgb(50, 225, 50);
+  color: white;
+  border: none;
+  position: absolute;
+  top: 2%;
+  right:1%;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+nav {
+  background-color: rgb(247, 241, 241);
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 80px;
+}
+ul li {
+  list-style-type: none;
+}
